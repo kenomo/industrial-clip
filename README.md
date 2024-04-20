@@ -1,1 +1,3 @@
-# industrial-clip
+# Industrial CLIP: Leveraging Vision Foundation Models in Industrial Applications
+
+... code will be released soon, stay tuned 🎉 ...
