@@ -1,0 +1,14 @@
+DATALOADER:
+  TEST:
+    BATCH_SIZE: 32
+    SAMPLER: "RandomSampler"
+
+  NUM_WORKERS: 4
+
+TRAINER:
+  ZSCLIP:
+    PROMPT_TEMPLATE: "a photo of an industrial product {}"
+
+MODEL:
+  BACKBONE:
+    NAME: "ViT-B/16"

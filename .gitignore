@@ -1,0 +1,6 @@
+data/*
+!data/.gitkeep
+output/*
+__pycache__
+wandb/*
+evaluation/sam_vit_*

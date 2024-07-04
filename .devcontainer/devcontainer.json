@@ -1,0 +1,27 @@
+{
+	"name": "industrial-clip",
+
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"bierner.markdown-preview-github-styles"
+			]
+		}
+	},
+
+	"remoteUser": "root",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/root/industrial-clip,type=bind,consistency=cached",
+	"workspaceFolder": "/root/industrial-clip",
+	
+	"runArgs": [
+		"--gpus=all",
+		"--ipc=host",
+	]
+
+}
