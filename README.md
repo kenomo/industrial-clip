@@ -1,6 +1,6 @@
 # Industrial Language-Image Dataset (ILID): Adapting Vision Foundation Models for Industrial Settings
 
-This repository provides training- and evaluation-related code to [Industrial Language-Image Dataset (ILID): Adapting Vision Foundation Models for Industrial Settings](https://doi.org/10.48550/arXiv.2406.09637). We provide the dataset at [github.com/kenomo/ilid](https://github.com/kenomo/ilid). 
+This repository provides training- and evaluation-related code to [Industrial Language-Image Dataset (ILID): Adapting Vision Foundation Models for Industrial Settings](https://doi.org/10.1016/j.procir.2024.10.084). We provide the dataset at [github.com/kenomo/ilid](https://github.com/kenomo/ilid). 
 This repository builds upon the code base of [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch), uses the original [CLIP](https://github.com/openai/CLIP) implementation, and contains a `devcontainer.json` and `Dockerfile`, which setups all the necessary dependencies. The training and code was tested on a 4090.
 
 ## 🏋️ Training
