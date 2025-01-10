@@ -37,7 +37,7 @@ You are welcome to submit issues, send pull requests, or share some ideas with u
 ## ✍ Citation
 If you find __ILID__ or the provided code useful to your work/research, please cite:
 ```bibtex
-@article{moenck.2024,
+@article{Moenck.2024,
   title = {Industrial {{Language-Image Dataset}} ({{ILID}}): {{Adapting Vision Foundation Models}} for {{Industrial Settings}}},
   author = {Moenck, Keno and Thieu, Duc Trung and Koch, Julian and Sch{\"u}ppstuhl, Thorsten},
   year = {2024},
